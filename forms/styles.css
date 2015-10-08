@@ -1,0 +1,7 @@
+/*selector: pseudo selector*/
+
+/*pseudo elements*/
+
+div::before {
+	content: 'Daz Says: ';
+}

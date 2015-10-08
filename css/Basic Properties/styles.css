@@ -1,0 +1,17 @@
+img {
+	width: 40px;
+}
+div {
+	width: 400px;
+	height: 400px;
+	background-image: url("image.jpg");
+	background-color:red;
+	/*background-size: 100px;*/
+	background-repeat: no-repeat;
+	/*background-position: 100px 20px;*/
+	background-size: cover;
+	/*background-size: contain;*/
+	background-position: center center;
+	/*border-radius: 20px;*/
+	border-radius :50%; /* This makes a circle */ 
+}

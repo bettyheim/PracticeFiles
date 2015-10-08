@@ -1,0 +1,328 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/bettyheim/Documents/Rockit/Milestone2/cssProject/css/styles.css",
+			"settings":
+			{
+				"buffer_size": 907,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/bettyheim/Documents/Rockit/Milestone2/cssProject/index.html",
+			"settings":
+			{
+				"buffer_size": 318,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"defau",
+				"Preferences: Settings - Default"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"list",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"li",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"L",
+				"Package Control: List Packages"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insatll",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 191.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '5b468e895e861582c8ac080daaae7722' + 'a0787a887fb19723f006ed5b020ffdf6'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/bettyheim/Documents/Rockit/Milestone2/cssProject",
+		"/Users/bettyheim/Documents/Rockit/Milestone2/cssProject/css"
+	],
+	"file_history":
+	[
+		"/Users/bettyheim/Documents/Rockit/practice/javaScript/Functions/practice.js",
+		"/Users/bettyheim/Documents/Rockit/practice/javaScript/Functions/index.html",
+		"/Users/bettyheim/Documents/Rockit/practice/javaScript/Basic/practice.js",
+		"/Users/bettyheim/Documents/Rockit/practice/javaScript/Basic/index.html",
+		"/Users/bettyheim/Documents/Rockit/practice/forms/constraints/index.html",
+		"/Users/bettyheim/Documents/Rockit/practice/forms/index.html",
+		"/Users/bettyheim/Documents/Rockit/Lesson Notes/javaScript/notes.txt",
+		"/Users/bettyheim/Documents/Rockit/Lesson Notes/CSS Notes.txt",
+		"/Users/bettyheim/Documents/Rockit/practice/css/psuedo/index.html",
+		"/Users/bettyheim/Documents/Rockit/practice/forms/styles.css",
+		"/Users/bettyheim/Documents/Rockit/practice/css/css_Resets/styles.css",
+		"/Users/bettyheim/Documents/Rockit/practice/css/css_Resets/reset.css",
+		"/Users/bettyheim/Documents/meetUpNotes/javaScript/sept23/notes.txt",
+		"/Users/bettyheim/Documents/Rockit/Lesson Notes/Form Notes.txt",
+		"/Users/bettyheim/Documents/Rockit/practice/css/css_Resets/index.html",
+		"/Users/bettyheim/Documents/Rockit/practice/css/Basic Selectors/styles.css",
+		"/Users/bettyheim/Documents/Rockit/practice/css/Basic Selectors/index.html",
+		"/Users/bettyheim/Documents/Rockit/practice/css/Basic Properties/styles.css",
+		"/Users/bettyheim/Documents/Rockit/practice/php/Basic Operators/index.php",
+		"/Users/bettyheim/Documents/Rockit/practice/php/Basic php/index.php",
+		"/Users/bettyheim/Documents/Rockit/practice/css/Basic Properties/index.html",
+		"/Users/bettyheim/Documents/Rockit/practice/css/Basic Logic/styles.css",
+		"/Users/bettyheim/Documents/Rockit/practice/css/Basic Logic/index.htm",
+		"/Users/bettyheim/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/bettyheim/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/bettyheim/Documents/Rockit/practice/php/numbers.php",
+		"/Users/bettyheim/Documents/Rockit/practice/php/footer.php",
+		"/Users/bettyheim/Documents/Rockit/practice/php/index.php",
+		"/Users/bettyheim/Documents/Rockit/Lesson Notes/practice.php",
+		"/Users/bettyheim/Documents/ToDo/todo.html",
+		"/Users/bettyheim/Documents/mybio.html",
+		"/Users/bettyheim/Documents/stylesheet.css",
+		"/Users/bettyheim/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"		<input type=\"radio\" name=\"color\" value=\"blue\">\n",
+			"value",
+			"id",
+			"name",
+			"foo"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/bettyheim/Documents/Rockit/Milestone2/cssProject/css/styles.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 907,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								609,
+								609
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 125.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/bettyheim/Documents/Rockit/Milestone2/cssProject/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								285,
+								285
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Milestone2CSS.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/myBio.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 240.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

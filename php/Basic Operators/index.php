@@ -24,4 +24,11 @@ $y += 3; // add and assign
 $y = $y + 3; // the hard way
 $x -= 2;
 
-$excited .="!!!";
+$excited .= "!!!";
+
+// others
+// /=
+// *=
+// %=
+//
+//

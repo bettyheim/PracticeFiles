@@ -1,0 +1,72 @@
+	background-color: #eee;	
+}
+
+.page {
+	padding:4px;
+	display: flex;
+}
+
+aside,
+main {
+	background-color: white;
+	width: 200px;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ccc;
+}
+
+aside {
+	width: 200px;
+}
+
+main {
+	margin-left: 10px;
+	flex:4;
+	padding: 10px;
+}
+
+main > * + * {
+	margin-top: 10px;
+}
+
+.media {
+	background-color: #eee;
+	display: flex;
+	min-height: 100px;
+}
+
+.content,
+graphic {
+	background-color: #ccc;
+	flex:1;
+}
+
+.graphic {
+	background-color: #ccc;
+	margin-right: 10px;
+	width: 100px;
+}
+
+
+.blck{
+	display: block;
+}
+section {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: column;
+	/*flex-direction: row;*/
+	align-items: center;
+}
+
+section > div {
+	background-color: red;
+	margin: 5px;
+	width: 100px;
+	height: 100px;
+}
+
+
+
+

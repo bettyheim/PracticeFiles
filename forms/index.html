@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<form action="index.html" method="GET">
+	<div style="margin-bottom:14px;">
+		<h2>Delivery Info:</h2>
+		<label>First Name <input required pattern="" type="text" name="firstName"></label>
+		<label>Last Name <input type="text" name="lastName"></label>
+		<label>Address <input type="text" name="address"></label>
+	</div>
+	<div>	
+		<label>Time <input type="datetime-local" name="time"></label>
+	</div>
+	<div>
+		<h2>Payment Info:</h2>
+		<label>Credit Card Number <input type="text" name="creditCard"></label>
+		<label>Expiration Date <input type="month" name="expiration" placeholder="MMYY"></label>
+	</div>
+	<div>
+		<h2>Size:</h2>
+		<label>Small <input type="radio" value="small" name="pizzaSize"></label>
+		<label>Medium <input type="radio" value="medium" name="pizzaSize"></label>
+		<label>Large<input type="radio" value="large" name="pizzaSize"></label>
+		<label>X-Large<input type="radio" value="xLarge" name="pizzaSize"></label>
+	</div>
+	<div>
+		<h2>Type of crust:</h2>
+		<select name="crust">
+			<option value="Deep Dish">Deep Dish</option>
+			<option value="Hand Tossed">Hand Tossed</option>
+			<option value="Thin and Crispy">Thin and Crispy</option>
+		</select>
+	</div>
+	<h2>Toppings:</h2>
+	<div>
+		<label><input type="checkbox" value="sausage" name="toppings">Sausage</label>
+		<label><input type="checkbox" value="pepperoni" name="toppings">Pepperoni</label>
+		<label><input type="checkbox" value="bellPepper" name="toppings">Bell Pepper</label>
+		<label><input type="checkbox" value="onion" name="toppings">Onion</label>
+		<label><input type="checkbox" value="mushrooms" name="toppings">Mushrooms</label>
+		<label><input type="checkbox" value="ham" name="toppings">ham</label>
+	</div>
+	<div>
+		<h2>Drinks:</h2>
+		<label><input type="radio" value="sprite" name="drink">Sprite</label>
+		<label><input type="number">Number of sprite</label>
+		<label><input type="radio" value="pepsi" name="drink">Pepsi</label>
+		<label><input type="number">Number of pepsi</label>
+		<label><input type="radio" value="none" name="drink">None</label>
+	</div>
+	<div>
+		<h2>Special Instructions:</h2>
+		<label><textarea name="special" cols="20" rows="4"></textarea></label>
+	</div>
+	<div style="margin-top:28px;">
+		<button type="submit">Submit</button>
+		<button type="Reset">Reset</button>
+	</div>
+	</form>
+</body>
+</html>
