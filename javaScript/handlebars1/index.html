@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+	<script id="div-template" type='text/x-handlebars-template'>
+		<div>{{text}}</div>
+	</script>
+</head>
+<body>
+	
+
+
+		<script src="main.js"></script>
+</body>
+</html>
+
+<!-- Handlebars is a way to fill in the blanks on a template... 
+kind of like mad libs game (a visit to the dentist). Created a string in console. 
+
+var string = 'Thank you so very much for seeing me, Doctor. ____'
+undefined
+string
+"Thank you so very much for seeing me, Doctor. ____"
+string.replace(/_+/g, 'Lanni')
+"Thank you so very much for seeing me, Doctor. Lanni"
+string.replace(/_+/g, 'Heim')
+"Thank you so very much for seeing me, Doctor. Heim"
+var string = 'Thank you so very much for seeing me, Doctor. NAME'
+undefined
+string.replace('NAME', 'Everton')
+"Thank you so very much for seeing me, Doctor. Everton"
+var string = 'Thank you so very much for seeing me, Doctor. {name}'
+undefined
+string.replace('{name}', 'Everton')
+"Thank you so very much for seeing me, Doctor. Everton"
+var string = 'Thank you so very much for seeing me, Doctor. {{name}}'
+undefined
+string.replace('{{name}}', 'Everton')
+
+var thanksTmpl = Handlebars.compile(string)
+undefined
+
+thanksTmpl({ name: 'Brad'})
+"Thank you so very much for seeing me, Doctor. Brad"
+
+thanksTmpl({ name: 'Spock'})
+"Thank you so very much for seeing me, Doctor. Spock"
+
+var string2 = 'I havae a pain in my upper {{noun}}, which is giving me a severe {{partOfBody}} ache.'
+undefined
+string2
+"I havae a pain in my upper {{noun}}, which is giving me a severe {{partOfBody}} ache."
+var string2 = 'I have a pain in my upper {{noun}}, which is giving me a severe {{partOfBody}} ache.'
+undefined
+string2
+"I have a pain in my upper {{noun}}, which is giving me a severe {{partOfBody}} ache."
+var painTmpl = Handlebars.compile(string2)
+undefined
+
+painTmpl( {noun: 'horse', partOfBody: 'neck' })
+"I have a pain in my upper horse, which is giving me a severe neck ache."
+
+
+var string3 = 'I think I see a {{noun}} in your uper {{noun}}'
+undefined
+var yourUpperTmpl = Handlebars.compile(string3)
+undefined
+
+yourUpperTmpl({ noun: 'hat', noun: 'whale'} )
+"I think I see a whale in your uper whale"
+
+You can repeat the same placeholder and repeat it as many times as needed.
+
+var batman = 'NAN'
+undefined
+
+var batmanTmpl = Handlebars.compile(batman)
+undefined
+
+var htmlTmpl = Handlebars.compile('{{{text}}}')
+undefined
+htmlTmpl({ text: '<div>Hello</div>' })
+"<div>Hello</div>"
+
+The {{{ }}} allows you to include html tags
+
+package control install handlebars.
+
+
+
+ -->
