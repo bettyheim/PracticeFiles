@@ -1,0 +1,34 @@
+/*.lightbox {
+	widows: 500px;
+	height: 300px;
+	background-color: #aaa;
+	position: absolute;
+
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+
+	transfrom: translateX(-50px);
+	transfrom: translateY(-50px);
+
+}*/
+
+.container {
+	widows: 500px;
+	background-color: red;
+}
+
+.container::after {
+	content: '';
+	display: block;
+	clear: left;
+}
+
+.container > div {
+	width: 50px;
+	height: 50px;
+	background-color: green;
+
+	position: absolute;
+}

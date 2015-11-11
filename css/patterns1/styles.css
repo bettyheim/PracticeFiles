@@ -1,0 +1,73 @@
+.container {
+	width: 500px;
+	height: 300px;
+	background-color: green;
+
+	position: relative;
+}
+
+.container > div {
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	position: absolute;
+
+
+	right: 0px;
+	top: 0px;
+	margin-right: -10px;
+}
+
+.container1 {
+	background-color: salmon;
+
+}
+.container1 > div {
+	background-color: green;
+}
+
+.container2 {
+	background-color: salmon;
+}
+
+.container2 > div {
+	background-color: green;
+}*/
+
+.container {
+	height: 500px;
+	width: 500px;
+	background-color: green;
+	background-image: green url('js.png') no-repeat, url('bower-logo.png'); /*whichever one is applied first is uppermost*/
+
+	background: linear-gradient(red, blue);
+	background-image: radial-gradient(red, blue);
+
+}
+
+/*
+Transform: translate(30px, 30px); //doesn't change th flow, the items original flow is preserved
+
+
+*/
+
+
+
+/* media object pattern with css
+<a href="">Bower</a>
+
+a {
+	background-image: url('bower-logo.png');
+	background-size: 1em;
+	background-repeat: no-repeat;
+	background-position: left center;
+	padding-left: 1.1em;
+}
+
+
+If you want inline elements or inline-block items to be centered use text-align: center on the container;
+
+On block level items, apply margin:auto on the element that is to be centered.;
+
+
+

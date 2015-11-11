@@ -1,0 +1,29 @@
+/*main {
+	display: flex;
+	flex-wrap: wrap;
+}*/
+/*.image-container img {
+	width: 130px;
+	height: 130px;
+}*/
+
+.media-object {
+	display: flex;
+	margin: 10px;
+}
+
+.media-graphic {
+	width: 70px;
+	height: 70px;
+	background-color: lightgreen;
+}
+
+.media-content {
+	flex: 1;
+	background-color: lightblue;
+}
+
+.media-content a {
+	display: inline-block;
+	padding: 10px;
+}

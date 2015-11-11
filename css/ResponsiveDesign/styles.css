@@ -1,0 +1,37 @@
+
+/*each component might require a different breakpoint. It is also easier to keep track of your code when the media queries are done on a component or layout basis
+
+Using ems is important for responsive design is because it is a scalable unit.
+
+ On a background image is display: none for mobile; and then display for a larger version optimizes bandwith when done in a mobile first method.
+
+ mobile first makes for less code. You can design for the smaller scale first and then add the styles you need for the desktop to make your layout more side-by-side.
+
+ When using percentages, it doesn't make it responsive. It is fluid or liquid.
+
+*/
+
+
+.container {
+	width: 400px;
+	height: 400px;
+	background-color: blue;
+}
+
+second-elem	.container {
+		background-color: yellow;
+	}
+}
+
+.component {
+
+}
+
+@media screen and (min-width: 600px) {
+	.component {
+
+	}
+}
+
+
+

@@ -1,0 +1,33 @@
+.pupy-tiles {
+	width: 500px;
+	background-color: orange;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+
+/*.container::after {
+	content: '';
+	display: block;
+	clear: left;
+
+	float clearfix
+}*/
+
+.puppy-tiles figure {
+	background-color: lightblue;
+	/*float: left;*/
+	width: calc(20% - 20px);
+	height: 60px;
+	margin: 10px;
+
+	.puppy-tiles .puppy-image {
+		background
+	}
+
+	/*display: inline-block;*/
+	/*vertical-align: top;*/
+	/*Calc works on floats and flexbox, not inline-box*/
+	/* background-size cover, div = width: calc(33.33%-margin)*/
+	/**/
+}

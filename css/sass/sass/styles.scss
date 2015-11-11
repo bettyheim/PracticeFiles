@@ -1,0 +1,62 @@
+@mixin media-object($width) {
+	display: flex;
+}
+
+.media > :first-child {
+	width: $width;
+}
+
+.content {
+	flex: 1;
+	@content;
+}
+
+
+.user {
+	@include media-object(40px) {
+		margin:10px;
+		border-radius: 4px;
+	}
+	background-color: red;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+
+// $gutter: 2em;
+
+// @mixin button($color) {
+// 	background-color: $color;
+// 	border: none;
+// 	border-radius: 10px;
+// 	padding: 0.5 * $gutter;
+
+// }
+
+// a.button {
+// 	@include button(blue);
+// }
+
+// a.button.warning {
+// 	@include button(red);
+// }
+
+
+
+// The amprasand before the selector adds that selector to the parent a &.bar creates a.bar selector. with no amprasand, you get a child selector this creates a bar.
+
+// These comments do not show up in the css file.
+
+/*
+
+This type of comment does show up in the css file.
+
+*/
+// A mixin uses @include. partials use @import.
+//@extend button writes the same properties to children and you can overwrite a property
+
+// @content

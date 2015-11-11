@@ -1,0 +1,44 @@
+<!--
+1. Make an array of user objects
+2.Use jQuery to make a list(<li>) of users
+When you click on a user, retreive the user's name for the console
+
+Use handlebars if you weren't before
+
+Switch the once was
+
+HTML to now be a media object. The media object HTML represent's the user. Write just enough css to make it a proper media object
+Use the "data-id" attribute instead of the "id" attribute
+
+Have a "remove" link or button in the content area of the media object alongside the name. When the remove button is clicked, console log the person's name
+ -->
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Document</title>
+ 	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.4/handlebars.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+ 	<script src="node_modules/backbone/backbone.js"></script>
+ 	<link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+ 	<main>
+
+ 	</main>
+ 	<script id="user-template" type="text/x-handlebars-template">
+	 	{{#each this}}
+	 		<div class="media-object" data-id="{{id}}">
+	 			<div class="media-graphic">image goes here</div>
+	 			<div class="media-content">
+	 				<a class="user-item" href="#">{{name}}</a>
+	 				<button class="rem-button">Remove</button>
+	 			</div>
+	 		</div>
+	 	{{/each}}
+ 	</script>
+ 	<script src="main.js"></script>
+ </body>
+ </html>

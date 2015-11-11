@@ -1,0 +1,58 @@
+body {
+	margin: 0;
+}
+
+.page {
+	background-color: #bbb;
+}
+
+.page > div {
+	background-color: lightblue;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: red;
+	height: 120px;
+	margin-bottom: 16px;
+}
+
+main {
+	background-color: aqua;
+	display: flex;
+}
+aside {
+	background-color: blue;
+	width: 130px;
+	margin-right: 16px;
+	color: #fff;
+}
+section.primary-content {
+	background-color: green;
+	flex: 1;
+	padding:20px;
+}
+
+section.primary-content > * + * {
+	margin-top: 16px;
+}
+
+article {
+	background-color: #eee;
+	display:flex;
+	width:600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+article .graphic {
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+}
+
+article .description {
+	flex: 1;
+	background-color: #fff;
+}

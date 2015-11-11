@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+		<script src="node_modules/jquery/dist/jquery.js"></script>
+		<script src="node_modules/handlebars/dist/handlebars.js"></script>
+		<script src="node_modules/underscore/underscore.js"></script>
+		<script src="node_modules/backbone/backbone.js"></script>
+		<script id="show-todos" type="text/x-handlebars-template">
+			<ul>
+				{{#each this}}
+					<li>{{title}}</li>
+				{{/each}}
+			</ul>
+		</script>
+		<script id="show-todo" type="text/x-handlebars-template">
+			<div>{{id}}</div>
+			<div>{{title}}</div>
+		</script>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="#/todos">Todos</a></li>
+			<li><a href="#/todos/1">Todos #1</a></li>
+			<li><a href="#/todos/2">Todos #2</a></li>
+			<li><a href="#/todos/12">Todos #12</a></li>
+			<li><a href="#/todos/18">Todos #18</a></li>
+			<li><a href="#/todos/1/edit">edit todo #1</a></li>
+			<li><a href="#/broken">Oops</a></li>
+		</ul>
+	</nav>
+	<main></main>
+
+
+	<footer>Copyright &copy; Barney Rubble 100 BC</footer>
+
+	<script src="models/todo.js"></script>
+	<script src="collections/todos.js"></script>
+	<script src="views/show-todos.js"></script>
+	<script src="views/show-todo.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -12,6 +12,18 @@ $(function () {
 
 
 
+	var greet = Handlebars.compile('Hello, {{blank}}')
+
+	console.log(greet({ blank: 'Homer' }))
+
+	var tmpl = $('#form-template').text();
+
+	var greet2 = Handlebars.compile(tmpl);
+
+	console.log(greet2({ name: 'Fluffy'}))
+
+
+
 })
 
 // get the string and then compile it with handlebars

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.3/handlebars.js"></script>
+	<script src="main.js"></script>
+	<script id="hello" type="text/x-handlebars-template">
+		<div>Hello, my Name is {{name}}.</div>
+		<h2>I am a {{title}} for {{company}}. Below is a list of my students.</h2>
+		{{{studentsHtml}}}
+		<footer>Thanks for stopping by!</footer>
+	</script>
+
+	<script id="students" type="text/x-handlebars-template">
+		<div>
+			<h2>Students</h2>
+			{{#each students}}
+			<article>
+				<h3>{{name}}</h3>
+				<div>Hair Color: {{hair}}</div>
+				<div>Gender: {{gender}}</div>
+			</article>
+			{{/each}}
+		</div>
+	</script>
+</head>
+<body>
+	<main></main>
+	<script src="main.js"></script>
+</body>
+</html>

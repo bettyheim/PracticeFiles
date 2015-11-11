@@ -8,10 +8,34 @@
 	"buffers":
 	[
 		{
-			"file": "forms/index.html",
+			"file": "javaScript/arraysNloops/index.html",
 			"settings":
 			{
-				"buffer_size": 2413,
+				"buffer_size": 154,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javaScript/arraysNloops/main.js",
+			"settings":
+			{
+				"buffer_size": 2449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javaScript/loopPractic/index.html",
+			"settings":
+			{
+				"buffer_size": 155,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javaScript/loopPractic/main.js",
+			"settings":
+			{
+				"buffer_size": 1387,
 				"line_ending": "Unix"
 			}
 		}
@@ -23,10 +47,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "",
+		"height": 127.0,
+		"last_filter": "han",
 		"selected_items":
 		[
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
 			[
 				"defau",
 				"Preferences: Settings - Default"
@@ -68,7 +96,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 467.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -91,12 +119,12 @@
 	"expanded_folders":
 	[
 		"/Users/bettyheim/Documents/Rockit/practice",
-		"/Users/bettyheim/Documents/Rockit/practice/css",
-		"/Users/bettyheim/Documents/Rockit/practice/css/Basic Logic",
-		"/Users/bettyheim/Documents/Rockit/practice/forms"
+		"/Users/bettyheim/Documents/Rockit/practice/javaScript"
 	],
 	"file_history":
 	[
+		"/Users/bettyheim/Documents/Rockit/practice/javaScript/handlebars1/index.html",
+		"/Users/bettyheim/Documents/Rockit/Milestone2/jQueryProject/js/main.js",
 		"/Users/bettyheim/Documents/Rockit/practice/javaScript/jQuery Events/script.js",
 		"/Users/bettyheim/Documents/Rockit/practice/javaScript/jQueryBasics/main.js",
 		"/Users/bettyheim/Documents/Rockit/practice/javaScript/jQueryForm/main.js",
@@ -181,33 +209,119 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "forms/index.html",
-					"semi_transient": true,
+					"file": "javaScript/arraysNloops/index.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2413,
+						"buffer_size": 154,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								106,
+								139
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 331.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "javaScript/arraysNloops/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2409,
+								2409
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1610.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "javaScript/loopPractic/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 155,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								128,
+								128
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "javaScript/loopPractic/main.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1387,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1373,
+								1373
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1362.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

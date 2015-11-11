@@ -1,0 +1,29 @@
+.container {
+	background-color: red;
+	padding: 20px;
+}
+
+.top-elem {
+	background-color: yellow;
+	min-height: 150px;
+}
+
+.second-elem {
+	background-color: lightblue;
+	min-height: 200px;
+	margin-top: 20px;
+}
+
+@media screen and (min-width: 600px) {
+	.container {
+		display: flex;
+	}
+	.top-elem {
+		width: 160px;
+	}
+	.second-elem {
+		flex: 1;
+		margin-top: 0;
+		margin-left: 20px;
+	}
+}
